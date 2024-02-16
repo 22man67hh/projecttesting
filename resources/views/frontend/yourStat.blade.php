@@ -84,7 +84,7 @@
                                         <a href="{{route('EditRoom',['id'=>$room->id])}}">
                                         <button class="btn btn-primary">Edit</button>
                                         </a>
-                                        <form action="">
+                                        <form action="{{route('RoomRened',['id'=>$room->id])}}">
                                             @csrf
                                         <button class="btn btn-danger">Rented</button>
                                       
